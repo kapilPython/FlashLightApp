@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/radio_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:weightSum="100">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RadioGroup
+            android:id="@+id/radioButtons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFC0FF">
+            <RadioButton android:id="@+id/radio_w"
+                android:text="White"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"/>
+            <RadioButton android:id="@+id/radio_b"
+                android:text="Black"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"/>
+            <RadioButton android:id="@+id/radio_r"
+                android:text="Red"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"/>
+            <RadioButton android:id="@+id/radio_y"
+                android:text="Yellow"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"/>
+            <RadioButton android:id="@+id/radio_g"
+                android:text="Green"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"/>
+        </RadioGroup>
+    </ScrollView>
+</LinearLayout>

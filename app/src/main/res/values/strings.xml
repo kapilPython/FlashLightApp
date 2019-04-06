@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LabAssignment2b</string>
+    <string name="txt_view">Touch the screen to show/hide buttons </string>
+    <string name = "menu_select">Startup Button Visibility</string>
+</resources>

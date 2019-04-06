@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:weightSum="100">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleTextColor="@android:color/white"
+        android:background="?attr/colorPrimary"
+        android:layout_weight="15">
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:text="@string/txt_view"
+        android:layout_weight="75"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/button_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="horizontal"
+        android:layout_weight="10"
+        android:weightSum="100">
+
+        <Button
+            android:id="@+id/button_w"
+            android:layout_width="20pt"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:text="W"
+            android:background="@color/buttonColor"/>
+
+        <Button
+            android:id="@+id/button_b"
+            android:layout_width="20pt"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:text="B"
+            android:background="@color/buttonColor"/>
+
+        <Button
+            android:id="@+id/button_r"
+            android:layout_width="20pt"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:text="R"
+            android:background="@color/buttonColor"/>
+
+        <Button
+            android:id="@+id/button_y"
+            android:layout_width="20pt"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:text="Y"
+            android:background="@color/buttonColor"/>
+
+        <Button
+            android:id="@+id/button_g"
+            android:layout_width="20pt"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:text="G"
+            android:background="@color/buttonColor"/>
+    </LinearLayout>
+</LinearLayout>
